@@ -34,4 +34,7 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: _site
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@v4.4.2
+
 
